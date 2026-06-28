@@ -1,0 +1,197 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Chandhanika Kokkula, kernel masters, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\weather1.0.uvprojx
+Project File Date:  06/28/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling systick.c...
+stm32f401rbt6.h(30): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+adc.h(2): warning:  #1-D: last line of file ends without a newline
+  int Adc_read();
+adc.h(2): warning:  #1295-D: Deprecated declaration Adc_read - give arg types
+  int Adc_read();
+systick.h(1): warning:  #1295-D: Deprecated declaration SysTick_Init - give arg types
+  void SysTick_Init();
+systick.c: 4 warnings, 0 errors
+compiling main.c...
+stm32f401rbt6.h(30): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+uart.h(3): warning:  #1295-D: Deprecated declaration Wifi_OK_response - give arg types
+  int Wifi_OK_response();
+uart.h(4): warning:  #1295-D: Deprecated declaration Wifi_Init - give arg types
+  int Wifi_Init();
+uart.h(5): warning:  #1295-D: Deprecated declaration wifi_operation - give arg types
+  int wifi_operation();
+uart.h(6): warning:  #1295-D: Deprecated declaration wifi_configuration - give arg types
+  int wifi_configuration();
+uart.h(7): warning:  #1295-D: Deprecated declaration clear_DR - give arg types
+  void clear_DR();
+uart.h(8): warning:  #1295-D: Deprecated declaration UART6_Init - give arg types
+  void UART6_Init();
+systick.h(1): warning:  #1295-D: Deprecated declaration SysTick_Init - give arg types
+  void SysTick_Init();
+esp8266.h(2): warning:  #1295-D: Deprecated declaration Wifi_OK_response - give arg types
+  int Wifi_OK_response();
+esp8266.h(3): warning:  #1295-D: Deprecated declaration wifi_STATUS_Esp8266 - give arg types
+  int wifi_STATUS_Esp8266();
+esp8266.h(4): warning:  #1295-D: Deprecated declaration wifi_Done_Esp8266 - give arg types
+  int wifi_Done_Esp8266();
+esp8266.h(5): warning:  #1295-D: Deprecated declaration KM_UART6_TimeOut - give arg types
+  int KM_UART6_TimeOut();
+adc.h(2): warning:  #1-D: last line of file ends without a newline
+  int Adc_read();
+adc.h(2): warning:  #1295-D: Deprecated declaration Adc_read - give arg types
+  int Adc_read();
+main.c(41): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 15 warnings, 0 errors
+compiling esp8266.c...
+stm32f401rbt6.h(30): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+uart.h(3): warning:  #1295-D: Deprecated declaration Wifi_OK_response - give arg types
+  int Wifi_OK_response();
+uart.h(4): warning:  #1295-D: Deprecated declaration Wifi_Init - give arg types
+  int Wifi_Init();
+uart.h(5): warning:  #1295-D: Deprecated declaration wifi_operation - give arg types
+  int wifi_operation();
+uart.h(6): warning:  #1295-D: Deprecated declaration wifi_configuration - give arg types
+  int wifi_configuration();
+uart.h(7): warning:  #1295-D: Deprecated declaration clear_DR - give arg types
+  void clear_DR();
+uart.h(8): warning:  #1295-D: Deprecated declaration UART6_Init - give arg types
+  void UART6_Init();
+systick.h(1): warning:  #1295-D: Deprecated declaration SysTick_Init - give arg types
+  void SysTick_Init();
+esp8266.h(2): warning:  #1295-D: Deprecated declaration Wifi_OK_response - give arg types
+  int Wifi_OK_response();
+esp8266.h(3): warning:  #1295-D: Deprecated declaration wifi_STATUS_Esp8266 - give arg types
+  int wifi_STATUS_Esp8266();
+esp8266.h(4): warning:  #1295-D: Deprecated declaration wifi_Done_Esp8266 - give arg types
+  int wifi_Done_Esp8266();
+esp8266.h(5): warning:  #1295-D: Deprecated declaration KM_UART6_TimeOut - give arg types
+  int KM_UART6_TimeOut();
+adc.h(2): warning:  #1-D: last line of file ends without a newline
+  int Adc_read();
+adc.h(2): warning:  #1295-D: Deprecated declaration Adc_read - give arg types
+  int Adc_read();
+esp8266.c(212): warning:  #1-D: last line of file ends without a newline
+  	
+esp8266.c: 15 warnings, 0 errors
+assembling startup_stm32f401xc.s...
+compiling adc.c...
+stm32f401rbt6.h(30): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+adc.h(2): warning:  #1-D: last line of file ends without a newline
+  int Adc_read();
+adc.h(2): warning:  #1295-D: Deprecated declaration Adc_read - give arg types
+  int Adc_read();
+systick.h(1): warning:  #1295-D: Deprecated declaration SysTick_Init - give arg types
+  void SysTick_Init();
+adc.c: 4 warnings, 0 errors
+compiling lcd.c...
+stm32f401rbt6.h(30): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+lcd.c: 1 warning, 0 errors
+compiling uart.c...
+stm32f401rbt6.h(30): warning:  #1-D: last line of file ends without a newline
+  #include <string.h>
+uart.h(3): warning:  #1295-D: Deprecated declaration Wifi_OK_response - give arg types
+  int Wifi_OK_response();
+uart.h(4): warning:  #1295-D: Deprecated declaration Wifi_Init - give arg types
+  int Wifi_Init();
+uart.h(5): warning:  #1295-D: Deprecated declaration wifi_operation - give arg types
+  int wifi_operation();
+uart.h(6): warning:  #1295-D: Deprecated declaration wifi_configuration - give arg types
+  int wifi_configuration();
+uart.h(7): warning:  #1295-D: Deprecated declaration clear_DR - give arg types
+  void clear_DR();
+uart.h(8): warning:  #1295-D: Deprecated declaration UART6_Init - give arg types
+  void UART6_Init();
+systick.h(1): warning:  #1295-D: Deprecated declaration SysTick_Init - give arg types
+  void SysTick_Init();
+esp8266.h(2): warning:  #1295-D: Deprecated declaration Wifi_OK_response - give arg types
+  int Wifi_OK_response();
+esp8266.h(3): warning:  #1295-D: Deprecated declaration wifi_STATUS_Esp8266 - give arg types
+  int wifi_STATUS_Esp8266();
+esp8266.h(4): warning:  #1295-D: Deprecated declaration wifi_Done_Esp8266 - give arg types
+  int wifi_Done_Esp8266();
+esp8266.h(5): warning:  #1295-D: Deprecated declaration KM_UART6_TimeOut - give arg types
+  int KM_UART6_TimeOut();
+adc.h(2): warning:  #1-D: last line of file ends without a newline
+  int Adc_read();
+adc.h(2): warning:  #1295-D: Deprecated declaration Adc_read - give arg types
+  int Adc_read();
+uart.c(37): warning:  #61-D: integer operation result is out of range
+  	
+PIOC_AFRL &= ~(0xFF<<24);		// Clear alternate function bits for PA2 and PA3
+uart.c(38): warning:  #61-D: integer operation result is out of range
+  	
+PIOC_AFRL |= (0x88<<24);		// Select AF7 (USART2) for PA2 and PA3, load 7 into 8 t0 11 and 12 t0 15 bits
+uart.c(38): warning:  #68-D: integer conversion resulted in a change of sign
+  	
+PIOC_AFRL |= (0x88<<24);		// Select AF7 (USART2) for PA2 and PA3, load 7 into 8 t0 11 and 12 t0 15 bits
+uart.c(43): warning:  #1-D: last line of file ends without a newline
+  }
+uart.c: 18 warnings, 0 errors
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=3132 RO-data=436 RW-data=44 ZI-data=1844  
+".\Objects\weather1.0" - 0 Error(s), 57 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil::Device:Startup:2.6.3
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xc.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

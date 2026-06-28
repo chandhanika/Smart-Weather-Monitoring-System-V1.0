@@ -1,0 +1,58 @@
+Dependencies for Project 'weather1.0', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x6A40E792)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (stm32f401rbt6.h)(0x6A40E791)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (uart.h)(0x6A40E79B)
+I (lcd.h)(0x6A40E79B)
+I (systick.h)(0x6A40E79B)
+I (esp8266.h)(0x6A40E79B)
+I (adc.h)(0x6A40E79B)
+F (.\adc.c)(0x6A40E792)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (stm32f401rbt6.h)(0x6A40E791)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (lcd.h)(0x6A40E79B)
+I (adc.h)(0x6A40E79B)
+I (systick.h)(0x6A40E79B)
+F (.\lcd.c)(0x6A40E792)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (stm32f401rbt6.h)(0x6A40E791)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (lcd.h)(0x6A40E79B)
+F (.\systick.c)(0x6A40E796)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (stm32f401rbt6.h)(0x6A40E791)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (lcd.h)(0x6A40E79B)
+I (adc.h)(0x6A40E79B)
+I (systick.h)(0x6A40E79B)
+F (.\uart.c)(0x6A40E797)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (stm32f401rbt6.h)(0x6A40E791)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (uart.h)(0x6A40E79B)
+I (lcd.h)(0x6A40E79B)
+I (systick.h)(0x6A40E79B)
+I (esp8266.h)(0x6A40E79B)
+I (adc.h)(0x6A40E79B)
+F (.\esp8266.c)(0x6A41341F)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
+I (stm32f401rbt6.h)(0x6A40E791)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (uart.h)(0x6A40E79B)
+I (lcd.h)(0x6A40E79B)
+I (systick.h)(0x6A40E79B)
+I (esp8266.h)(0x6A40E79B)
+I (adc.h)(0x6A40E79B)
+F (RTE\Device\STM32F401RBTx\startup_stm32f401xc.s)(0x5C5BB34A)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list .\listings\startup_stm32f401xc.lst --xref -o .\objects\startup_stm32f401xc.o --depend .\objects\startup_stm32f401xc.d)
+F (RTE\Device\STM32F401RBTx\system_stm32f4xx.c)(0x5C5BB34A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\k_cha\OneDrive\Documents\Embedded_projects\V1.0_SmartWeather\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BB34A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x5C5BB34A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625DA34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BB34A)

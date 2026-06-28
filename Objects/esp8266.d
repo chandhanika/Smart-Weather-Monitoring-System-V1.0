@@ -1,0 +1,10 @@
+.\objects\esp8266.o: esp8266.c
+.\objects\esp8266.o: stm32f401rbt6.h
+.\objects\esp8266.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\esp8266.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\esp8266.o: uart.h
+.\objects\esp8266.o: lcd.h
+.\objects\esp8266.o: systick.h
+.\objects\esp8266.o: lcd.h
+.\objects\esp8266.o: esp8266.h
+.\objects\esp8266.o: adc.h

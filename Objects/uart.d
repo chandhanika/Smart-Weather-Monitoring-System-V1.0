@@ -1,0 +1,10 @@
+.\objects\uart.o: uart.c
+.\objects\uart.o: stm32f401rbt6.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\uart.o: uart.h
+.\objects\uart.o: lcd.h
+.\objects\uart.o: systick.h
+.\objects\uart.o: lcd.h
+.\objects\uart.o: esp8266.h
+.\objects\uart.o: adc.h
