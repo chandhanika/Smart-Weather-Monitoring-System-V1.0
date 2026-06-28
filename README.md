@@ -3,27 +3,3 @@
  
 Problem Statement:
 Design and implement an Embedded C application to read the temperature value from the LM35 Temperature Sensor every 5 seconds, display it on a 16x2 LCD, and transmit the same value to the Kernel Masters Webserver using ESP8266 Wi-Fi Module.
-
-Block Diagram:
-LM35 connected to ADC (PC0, Channel 10)
-LCD connected via GPIO in 4-bit mode
-ESP8266 Wi-Fi Module connected through UART6
-SysTick Timer for 5-second delay
-STM32 Microcontroller as central controller
-
-Pseudo Code:
-Start
-Initialize System Clock
-Initialize SysTick Timer
-Initialize GPIO
-Initialize LCD
-Initialize ADC (LM35 input on PC0, Channel 10)
-Initialize UART6
-Initialize ESP8266 Wi-Fi Module
-Loop Forever:
-Read ADC value from LM35
-Convert ADC value to temperature in °C
-Display temperature on LCD
-Send temperature value to Kernel Masters webserver via ESP8266
-Delay 5 seconds 
-End Loop
